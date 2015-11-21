@@ -9,7 +9,7 @@ GroupsGenerator::GroupsGenerator() {};
 
 void GroupsGenerator::CreateSentences(char* fileName)
 {
-	std::ifstream file1(fileName); //test 123
+	std::ifstream file1(fileName); 
     std::string str; 
     while (std::getline(file1, str))
     {
